@@ -2,10 +2,11 @@
 #ctags -R --fields=+la --extra=+q;  
 #ctags -R --languages=c,c++ --langmap=c++:+.inl -h +.inl --c++-kinds=+x --fields=+aliSz --extra=+q --exclude=lex.yy.cc --exclude=copy_lex.yy.cc
 
-### generate system tags, with exclude 'testsuite'
-ctags -I __THROW -I __attribute_pure__ -I __nonnull -I __attribute__ --file-scope=yes --langmap=c:+.h --languages=c,c++ --links=yes --c++-kinds=+x --fields=+ailSz --extra=+q --langmap=c++:+.inl -h +.inl --exclude=lex.yy.cc --exclude=copy_lex.yy.cc --excmd=number -R
 ### generate local source tags
-#ctags -I __THROW -I __attribute_pure__ -I __nonnull -I __attribute__ --file-scope=yes --langmap=c:+.h --languages=c,c++ --links=yes --c++-kinds=+x --fields=+ailSz --extra=+q --langmap=c++:+.inl -h +.inl --exclude=lex.yy.cc --exclude=copy_lex.yy.cc --excmd=number -R
+#ctags -I __THROW -I __attribute_pure__ -I __nonnull -I __attribute__ --file-scope=yes --langmap=c:+.h --languages=c,c++ --links=yes --c++-kinds=+px --fields=+ailSz --extra=+q --langmap=c++:+.inl -h +.inl --exclude=lex.yy.cc --exclude=copy_lex.yy.cc --excmd=number -R
+### generate system tags, with exclude 'testsuite'
+ctags -I __THROW -I __attribute_pure__ -I __nonnull -I __attribute__ -I _GLIBCXX_VISIBILITY -I _GLIBCXX_VISIBILITY+ --file-scope=yes --langmap=c:+.h --languages=c,c++ --links=yes --c++-kinds=+px --fields=+ailSz --extra=+q --langmap=c++:+.inl -h +.inl --exclude=lex.yy.cc --exclude=copy_lex.yy.cc --excmd=number --exclude=testsuite -R
+### for python,java,html
 #ctags -I __THROW -I __attribute_pure__ -I __nonnull -I __attribute__ --file-scope=yes --langmap=c:+.h --languages=c,c++,php,html,javascript --links=yes --c-kinds=+px --c++-kinds=+px --fields=+afliS --extra=+q --langmap=c:+.inl -h +.inl --exclude=lex.yy.cc --exclude=copy_lex.yy.cc --excmd=number -R 
 
 ## work with '--field=la'

@@ -94,7 +94,8 @@ set report=0		" 通过使用: commands命令，告诉我们文件的哪一行被
 "endfunction
 
 "Style
-set noexpandtab               	"不要将tab转换为空格
+"set noexpandtab               	"不要将tab转换为空格
+set expandtab               	"将tab转换为空格
 "set softtabstop=4				"统一缩进为4
 set shiftwidth=4              	"自动缩进的距离,也是平移字符的距离
 set tabstop=4                 	"tab键对应的空格数
