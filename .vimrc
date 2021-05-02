@@ -226,7 +226,7 @@ nnoremap <silent><Leader>bt :!sh ~/.vim/syntax/hitags.sh<CR>
 " 标签分类
 nnoremap <silent><Leader>ht :so tags.vim<CR>
 " 选择ctags创建的标签
-set tags=./tags;,tags
+set tags=./tags;,tags,~/.vim/systags
 
 ""-----Powerline-----, obolated by airline
 "set fillchars+=stl:\ ,stlnc:\
