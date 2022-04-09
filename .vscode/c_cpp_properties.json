@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include",
+                "D:/TOOL/TDM-GCC/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include",
+                "D:\\TOOL\\TDM-GCC\\lib\\gcc\\x86_64-w64-mingw32\\10.3.0\\include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\TOOL\\TDM-GCC\\bin\\g++.exe",
+            "cStandard": "gnu17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
