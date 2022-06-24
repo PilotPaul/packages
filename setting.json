@@ -20,6 +20,8 @@
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "C_Cpp.formatting": "Default",
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
     "sync.gist": "9ee83f836b7e7dcf914c47c5fb47843f",
     "code-runner.runInTerminal": true,
 }
