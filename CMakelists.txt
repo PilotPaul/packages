@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(try)
+set(SRC_LIST main.cpp)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+add_executable(main.exe ${SRC_LIST})
