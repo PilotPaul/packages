@@ -10,27 +10,29 @@
     "editor.detectIndentation": true,
     // // 重新设定tabsize
     "editor.tabSize": 4,
-        // 每次保存的时候自动格式化 
+    // 每次保存的时候自动格式化 
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
     "C_Cpp.clang_format_fallbackStyle": "{ asedOnStyle: Google, UseTab: Never, IndentWidth: 4, TabWidth: 4, SpaceBeforeParens: Never, AllowShortLoopsOnASingleLine: true, AllowShortBlocksOnASingleLine: true, AccessModifierOffset: -4, SpaceBeforeParens: ControlStatements, ColumnLimit: 120, AlignEscapedNewlines: Left, AlwaysBreakTemplateDeclarations: Yes, AlignAfterOpenBracket: DontAlign }",
     "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, UseTab: Never, IndentWidth: 4, TabWidth: 4, SpaceBeforeParens: Never, AllowShortLoopsOnASingleLine: true, AllowShortBlocksOnASingleLine: true, AccessModifierOffset: -4, SpaceBeforeParens: ControlStatements, ColumnLimit: 120, AlignEscapedNewlines: Left, AlwaysBreakTemplateDeclarations: Yes, AlignAfterOpenBracket: DontAlign }",
     //"C_Cpp.formatting": "Default",
-    // 自动补全
-    "editor.minimap.enabled": true,
-    "C_Cpp.autocomplete": "Default",
     "[cpp]": {
         // 使用自定义clang-format程序时才开启下面这个配置
         // "editor.defaultFormatter": "xaver.clang-format",
         "editor.defaultFormatter": "ms-vscode.cpptools",
-        "editor.quickSuggestions": true
-    },
-    "[c]": {
-        "editor.quickSuggestions": true
     },
 
+    // 自动补全
+    "editor.minimap.enabled": true,
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "on",
+        "strings": "on"
+    },
+    "C_Cpp.autocomplete": "Default",
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
     "C_Cpp.intelliSenseEngine": "Default",
+
     "code-runner.runInTerminal": true,
     "sync.gist": "9ee83f836b7e7dcf914c47c5fb47843f",
 }
